@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: lightgray;
+}
+
+.camera-number {
+  text-align: center;
+}
+/* * {
+  border: 1px solid grey;
+} */
