@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Open-Sans;
+  src: url(./Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: Open-Sans;
+  src: url(./Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-style: italic;
+}
+
+body {
+  background-color: rgb(32, 35, 42);
+  color: rgb(230, 230, 230);
+  font-family: "Open-Sans";
+  padding: 0px 16px 16px 16px;
+}
+
+a,
+a:visited,
+a:active {
+  color: inherit;
+}
+
+.camera-number {
+  text-align: center;
+}
+
+.camera-angle-image {
+  width: 300px;
+}
+
+/* * {
+  border: 1px solid grey;
+} */

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Checklist Trasmissão</title>
+  </head>
+  <body>
+    <h1>Checklist Transmissão</h1>
+
+    <button id="uncheck-all-button" onclick="uncheckAll('checklist')">
+      Limpar seleção
+    </button>
+    <script>
+      function uncheckAll(elementName) {
+        var name = document.getElementsByName(elementName);
+        for (i = 0; i < name.length; i++) {
+          name[i].checked = false;
+        }
+      }
+    </script>
+
+    <h2>1. Preparação Física</h2>
+    <input type="checkbox" id="checklist-1" name="checklist" />
+    <label for="checklist-1"> Ligar energia geral</label><br />
+    <input type="checkbox" id="checklist-2" name="checklist" />
+    <label for="checklist-2">
+      Ligar mesa de holofotes e apertar o botão <strong>7</strong></label
+    ><br />
+    <input type="checkbox" id="checklist-3" name="checklist" />
+    <label for="checklist-3">
+      Ligar mesinha de som à direita da mesa de som</label
+    ><br />
+    <input type="checkbox" id="checklist-4" name="checklist" />
+    <label for="checklist-4">
+      Ligar TV Samsung com o controle da caixa plástica</label
+    ><br />
+    <input type="checkbox" id="checklist-5" name="checklist" />
+    <label for="checklist-5"> Verificar se o SSD está na ATEM</label><br />
+
+    <h2>2. Configuração da Mesa ATEM</h2>
+    <input type="checkbox" id="checklist-6" name="checklist" />
+    <label for="checklist-6">
+      Conectar o cabo de energia no canto superior direito</label
+    ><br />
+    <input type="checkbox" id="checklist-7" name="checklist" />
+    <label for="checklist-7"> Ativar <strong>ON</strong> acima do MIC 1</label
+    ><br />
+    <input type="checkbox" id="checklist-8" name="checklist" />
+    <label for="checklist-8">
+      Desativar <strong>MUTE</strong> acima de HEADPHONES</label
+    ><br />
+
+    <h2>3. Desktop e Software</h2>
+    <input type="checkbox" id="checklist-9" name="checklist" />
+    <label for="checklist-9">
+      Abrir OBS Studio e configurar Projetor HDMI para a TV</label
+    ><br />
+    <input type="checkbox" id="checklist-10" name="checklist" />
+    <label for="checklist-10">
+      Abrir Chrome e navegar para <strong>studio.youtube.com</strong></label
+    ><br />
+    <input type="checkbox" id="checklist-11" name="checklist" />
+    <label for="checklist-11">
+      Configurar título da Live: Tema | Passagem | Rev. Nome</label
+    ><br />
+    <input type="checkbox" id="checklist-12" name="checklist" />
+    <label for="checklist-12"> Subir Thumbnail da pasta Downloads</label><br />
+    <input type="checkbox" id="checklist-13" name="checklist" />
+    <label for="checklist-13">
+      Compartilhar link com Rev. Rômulo e Grupo IPSB</label
+    ><br />
+
+    <h2>4. Durante a Transmissão</h2>
+    <input type="checkbox" id="checklist-14" name="checklist" />
+    <label for="checklist-14">
+      Iniciar <strong>REC</strong> e <strong>ON AIR</strong> na mesa ATEM</label
+    ><br />
+    <input type="checkbox" id="checklist-15" name="checklist" />
+    <label for="checklist-15">
+      Clicar em <strong>Transmitir ao Vivo</strong> no YouTube</label
+    ><br />
+    <input type="checkbox" id="checklist-16" name="checklist" />
+    <label for="checklist-15">
+      Louvor: Usar botão <strong>AUTO</strong> para Fade</label
+    ><br />
+    <input type="checkbox" id="checklist-17" name="checklist" />
+    <label for="checklist-17">
+      Pregação: Usar botão <strong>CUT</strong> para Corte seco</label
+    ><br />
+
+    <h2>5. Desligamento</h2>
+    <input type="checkbox" id="checklist-18" name="checklist" />
+    <label for="checklist-17"> Encerrar no YouTube</label><br />
+    <input type="checkbox" id="checklist-19" name="checklist" />
+    <label for="checklist-19">
+      Apertar <strong>STOP</strong> e <strong>OFF</strong> na ATEM</label
+    ><br />
+    <input type="checkbox" id="checklist-20" name="checklist" />
+    <label for="checklist-20"> Desligar TV e Desktop</label><br />
+    <input type="checkbox" id="checklist-21" name="checklist" />
+    <label for="checklist-21">Desligar mesinha de som e mesa de holofotes</label
+    ><br />
+  </body>
+</html>
